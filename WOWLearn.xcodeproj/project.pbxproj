@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EF6256907A8C4AA08FB4757 /* Pods_WOWLearnUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D722DDDEDAF6327656CDAF3F /* Pods_WOWLearnUITests.framework */; };
+		424169A61DD519A400558D29 /* TextfieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 424169A51DD519A400558D29 /* TextfieldCell.xib */; };
+		424169B01DD8B7A700558D29 /* ValuePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 424169AF1DD8B7A700558D29 /* ValuePickerCell.xib */; };
+		424169B61DDBAAA300558D29 /* InfoTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 424169B51DDBAAA300558D29 /* InfoTextCell.xib */; };
+		42A39B521DC91D000013FFA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A39B511DC91D000013FFA8 /* AppDelegate.swift */; };
+		42A39B541DC91D000013FFA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A39B531DC91D000013FFA8 /* ViewController.swift */; };
+		42A39B571DC91D000013FFA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A39B551DC91D000013FFA8 /* Main.storyboard */; };
+		42A39B591DC91D000013FFA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A39B581DC91D000013FFA8 /* Assets.xcassets */; };
+		42A39B5C1DC91D000013FFA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A39B5A1DC91D000013FFA8 /* LaunchScreen.storyboard */; };
+		42A39B671DC91D000013FFA8 /* WOWLearnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A39B661DC91D000013FFA8 /* WOWLearnTests.swift */; };
+		42A39B721DC91D000013FFA8 /* WOWLearnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A39B711DC91D000013FFA8 /* WOWLearnUITests.swift */; };
+		42A39B801DC923690013FFA8 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A39B7F1DC923690013FFA8 /* RegistrationViewController.swift */; };
+		42C0821D1DCAE53400A12DE1 /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42C0821C1DCAE53400A12DE1 /* CellDescriptor.plist */; };
+		42C082211DCAE67C00A12DE1 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C082201DCAE67C00A12DE1 /* CustomCell.swift */; };
+		42C082231DCAF02800A12DE1 /* NormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42C082221DCAF02800A12DE1 /* NormalCell.xib */; };
+		42C082271DCAF04900A12DE1 /* DatePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42C082261DCAF04900A12DE1 /* DatePickerCell.xib */; };
+		4E3471B0735C46C5ADAB1809 /* Pods_WOWLearn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4892969580AC31B7BB76092 /* Pods_WOWLearn.framework */; };
+		E3B7B981F21FEBED5526379B /* Pods_WOWLearnTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6009DF2F870E7306F0CB866E /* Pods_WOWLearnTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42A39B631DC91D000013FFA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42A39B461DC91D000013FFA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42A39B4D1DC91D000013FFA8;
+			remoteInfo = WOWLearn;
+		};
+		42A39B6E1DC91D000013FFA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42A39B461DC91D000013FFA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42A39B4D1DC91D000013FFA8;
+			remoteInfo = WOWLearn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F3E5030682C19EAB6197881 /* Pods-WOWLearnUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WOWLearnUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WOWLearnUITests/Pods-WOWLearnUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		424169A51DD519A400558D29 /* TextfieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextfieldCell.xib; sourceTree = "<group>"; };
+		424169AF1DD8B7A700558D29 /* ValuePickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ValuePickerCell.xib; sourceTree = "<group>"; };
+		424169B51DDBAAA300558D29 /* InfoTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoTextCell.xib; sourceTree = "<group>"; };
+		42A39B4E1DC91D000013FFA8 /* WOWLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WOWLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A39B511DC91D000013FFA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42A39B531DC91D000013FFA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42A39B561DC91D000013FFA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42A39B581DC91D000013FFA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42A39B5B1DC91D000013FFA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42A39B5D1DC91D000013FFA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42A39B621DC91D000013FFA8 /* WOWLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WOWLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A39B661DC91D000013FFA8 /* WOWLearnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WOWLearnTests.swift; sourceTree = "<group>"; };
+		42A39B681DC91D000013FFA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42A39B6D1DC91D000013FFA8 /* WOWLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WOWLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A39B711DC91D000013FFA8 /* WOWLearnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WOWLearnUITests.swift; sourceTree = "<group>"; };
+		42A39B731DC91D000013FFA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42A39B7F1DC923690013FFA8 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		42C0821C1DCAE53400A12DE1 /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
+		42C082201DCAE67C00A12DE1 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		42C082221DCAF02800A12DE1 /* NormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NormalCell.xib; sourceTree = "<group>"; };
+		42C082261DCAF04900A12DE1 /* DatePickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerCell.xib; sourceTree = "<group>"; };
+		5B5770439AF482003B40E6A3 /* Pods-WOWLearnTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WOWLearnTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WOWLearnTests/Pods-WOWLearnTests.release.xcconfig"; sourceTree = "<group>"; };
+		6009DF2F870E7306F0CB866E /* Pods_WOWLearnTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WOWLearnTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		615A9D2433DE73B94061CD3D /* Pods-WOWLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WOWLearn.release.xcconfig"; path = "Pods/Target Support Files/Pods-WOWLearn/Pods-WOWLearn.release.xcconfig"; sourceTree = "<group>"; };
+		61B8B66177B8F09AB2973AB5 /* Pods-WOWLearnTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WOWLearnTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WOWLearnTests/Pods-WOWLearnTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B2268048BB8B5ED4CAC7D18 /* Pods-WOWLearnUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WOWLearnUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WOWLearnUITests/Pods-WOWLearnUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B4892969580AC31B7BB76092 /* Pods_WOWLearn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WOWLearn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFFCA7FDFA41ED9D02D620C /* Pods-WOWLearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WOWLearn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WOWLearn/Pods-WOWLearn.debug.xcconfig"; sourceTree = "<group>"; };
+		D722DDDEDAF6327656CDAF3F /* Pods_WOWLearnUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WOWLearnUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42A39B4B1DC91D000013FFA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3471B0735C46C5ADAB1809 /* Pods_WOWLearn.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A39B5F1DC91D000013FFA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B7B981F21FEBED5526379B /* Pods_WOWLearnTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A39B6A1DC91D000013FFA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF6256907A8C4AA08FB4757 /* Pods_WOWLearnUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0344BA1B0939D86141E9E3DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDFFCA7FDFA41ED9D02D620C /* Pods-WOWLearn.debug.xcconfig */,
+				615A9D2433DE73B94061CD3D /* Pods-WOWLearn.release.xcconfig */,
+				61B8B66177B8F09AB2973AB5 /* Pods-WOWLearnTests.debug.xcconfig */,
+				5B5770439AF482003B40E6A3 /* Pods-WOWLearnTests.release.xcconfig */,
+				1F3E5030682C19EAB6197881 /* Pods-WOWLearnUITests.debug.xcconfig */,
+				7B2268048BB8B5ED4CAC7D18 /* Pods-WOWLearnUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		42A39B451DC91D000013FFA8 = {
+			isa = PBXGroup;
+			children = (
+				42A39B501DC91D000013FFA8 /* WOWLearn */,
+				42A39B651DC91D000013FFA8 /* WOWLearnTests */,
+				42A39B701DC91D000013FFA8 /* WOWLearnUITests */,
+				42A39B4F1DC91D000013FFA8 /* Products */,
+				0344BA1B0939D86141E9E3DC /* Pods */,
+				4B039B04530F49837B2EA3D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42A39B4F1DC91D000013FFA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42A39B4E1DC91D000013FFA8 /* WOWLearn.app */,
+				42A39B621DC91D000013FFA8 /* WOWLearnTests.xctest */,
+				42A39B6D1DC91D000013FFA8 /* WOWLearnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42A39B501DC91D000013FFA8 /* WOWLearn */ = {
+			isa = PBXGroup;
+			children = (
+				42A39B511DC91D000013FFA8 /* AppDelegate.swift */,
+				42A39B531DC91D000013FFA8 /* ViewController.swift */,
+				42A39B7F1DC923690013FFA8 /* RegistrationViewController.swift */,
+				42C082201DCAE67C00A12DE1 /* CustomCell.swift */,
+				42C082261DCAF04900A12DE1 /* DatePickerCell.xib */,
+				424169AF1DD8B7A700558D29 /* ValuePickerCell.xib */,
+				424169A51DD519A400558D29 /* TextfieldCell.xib */,
+				42C082221DCAF02800A12DE1 /* NormalCell.xib */,
+				424169B51DDBAAA300558D29 /* InfoTextCell.xib */,
+				42A39B5A1DC91D000013FFA8 /* LaunchScreen.storyboard */,
+				42A39B551DC91D000013FFA8 /* Main.storyboard */,
+				42A39B5D1DC91D000013FFA8 /* Info.plist */,
+				42C0821C1DCAE53400A12DE1 /* CellDescriptor.plist */,
+				42A39B581DC91D000013FFA8 /* Assets.xcassets */,
+			);
+			path = WOWLearn;
+			sourceTree = "<group>";
+		};
+		42A39B651DC91D000013FFA8 /* WOWLearnTests */ = {
+			isa = PBXGroup;
+			children = (
+				42A39B661DC91D000013FFA8 /* WOWLearnTests.swift */,
+				42A39B681DC91D000013FFA8 /* Info.plist */,
+			);
+			path = WOWLearnTests;
+			sourceTree = "<group>";
+		};
+		42A39B701DC91D000013FFA8 /* WOWLearnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42A39B711DC91D000013FFA8 /* WOWLearnUITests.swift */,
+				42A39B731DC91D000013FFA8 /* Info.plist */,
+			);
+			path = WOWLearnUITests;
+			sourceTree = "<group>";
+		};
+		4B039B04530F49837B2EA3D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4892969580AC31B7BB76092 /* Pods_WOWLearn.framework */,
+				6009DF2F870E7306F0CB866E /* Pods_WOWLearnTests.framework */,
+				D722DDDEDAF6327656CDAF3F /* Pods_WOWLearnUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42A39B4D1DC91D000013FFA8 /* WOWLearn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A39B761DC91D000013FFA8 /* Build configuration list for PBXNativeTarget "WOWLearn" */;
+			buildPhases = (
+				601F35A6BB48DB0335BAC7BB /* [CP] Check Pods Manifest.lock */,
+				42A39B4A1DC91D000013FFA8 /* Sources */,
+				42A39B4B1DC91D000013FFA8 /* Frameworks */,
+				42A39B4C1DC91D000013FFA8 /* Resources */,
+				DAFA1FFA0EF422D9AC990A91 /* [CP] Embed Pods Frameworks */,
+				CE36F7F9514B0162E1404838 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WOWLearn;
+			productName = WOWLearn;
+			productReference = 42A39B4E1DC91D000013FFA8 /* WOWLearn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42A39B611DC91D000013FFA8 /* WOWLearnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A39B791DC91D000013FFA8 /* Build configuration list for PBXNativeTarget "WOWLearnTests" */;
+			buildPhases = (
+				B4771BF274E18EC63A3A9750 /* [CP] Check Pods Manifest.lock */,
+				42A39B5E1DC91D000013FFA8 /* Sources */,
+				42A39B5F1DC91D000013FFA8 /* Frameworks */,
+				42A39B601DC91D000013FFA8 /* Resources */,
+				AC45ACB2D07470378E10C264 /* [CP] Embed Pods Frameworks */,
+				69C08D75970E2C806B3A333F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42A39B641DC91D000013FFA8 /* PBXTargetDependency */,
+			);
+			name = WOWLearnTests;
+			productName = WOWLearnTests;
+			productReference = 42A39B621DC91D000013FFA8 /* WOWLearnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42A39B6C1DC91D000013FFA8 /* WOWLearnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A39B7C1DC91D000013FFA8 /* Build configuration list for PBXNativeTarget "WOWLearnUITests" */;
+			buildPhases = (
+				1D95DB846610D03D4144E1FA /* [CP] Check Pods Manifest.lock */,
+				42A39B691DC91D000013FFA8 /* Sources */,
+				42A39B6A1DC91D000013FFA8 /* Frameworks */,
+				42A39B6B1DC91D000013FFA8 /* Resources */,
+				B94DC2348D8720D069CB3BAF /* [CP] Embed Pods Frameworks */,
+				AF5C703ED484A27A09E2C626 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42A39B6F1DC91D000013FFA8 /* PBXTargetDependency */,
+			);
+			name = WOWLearnUITests;
+			productName = WOWLearnUITests;
+			productReference = 42A39B6D1DC91D000013FFA8 /* WOWLearnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42A39B461DC91D000013FFA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Monalisa Nanda";
+				TargetAttributes = {
+					42A39B4D1DC91D000013FFA8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					42A39B611DC91D000013FFA8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 42A39B4D1DC91D000013FFA8;
+					};
+					42A39B6C1DC91D000013FFA8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 42A39B4D1DC91D000013FFA8;
+					};
+				};
+			};
+			buildConfigurationList = 42A39B491DC91D000013FFA8 /* Build configuration list for PBXProject "WOWLearn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42A39B451DC91D000013FFA8;
+			productRefGroup = 42A39B4F1DC91D000013FFA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42A39B4D1DC91D000013FFA8 /* WOWLearn */,
+				42A39B611DC91D000013FFA8 /* WOWLearnTests */,
+				42A39B6C1DC91D000013FFA8 /* WOWLearnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42A39B4C1DC91D000013FFA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A39B5C1DC91D000013FFA8 /* LaunchScreen.storyboard in Resources */,
+				42C0821D1DCAE53400A12DE1 /* CellDescriptor.plist in Resources */,
+				42C082271DCAF04900A12DE1 /* DatePickerCell.xib in Resources */,
+				424169A61DD519A400558D29 /* TextfieldCell.xib in Resources */,
+				42A39B591DC91D000013FFA8 /* Assets.xcassets in Resources */,
+				42A39B571DC91D000013FFA8 /* Main.storyboard in Resources */,
+				424169B61DDBAAA300558D29 /* InfoTextCell.xib in Resources */,
+				424169B01DD8B7A700558D29 /* ValuePickerCell.xib in Resources */,
+				42C082231DCAF02800A12DE1 /* NormalCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A39B601DC91D000013FFA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A39B6B1DC91D000013FFA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D95DB846610D03D4144E1FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		601F35A6BB48DB0335BAC7BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		69C08D75970E2C806B3A333F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WOWLearnTests/Pods-WOWLearnTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC45ACB2D07470378E10C264 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WOWLearnTests/Pods-WOWLearnTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF5C703ED484A27A09E2C626 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WOWLearnUITests/Pods-WOWLearnUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4771BF274E18EC63A3A9750 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B94DC2348D8720D069CB3BAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WOWLearnUITests/Pods-WOWLearnUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE36F7F9514B0162E1404838 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WOWLearn/Pods-WOWLearn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAFA1FFA0EF422D9AC990A91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WOWLearn/Pods-WOWLearn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42A39B4A1DC91D000013FFA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A39B801DC923690013FFA8 /* RegistrationViewController.swift in Sources */,
+				42A39B541DC91D000013FFA8 /* ViewController.swift in Sources */,
+				42C082211DCAE67C00A12DE1 /* CustomCell.swift in Sources */,
+				42A39B521DC91D000013FFA8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A39B5E1DC91D000013FFA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A39B671DC91D000013FFA8 /* WOWLearnTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A39B691DC91D000013FFA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A39B721DC91D000013FFA8 /* WOWLearnUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42A39B641DC91D000013FFA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42A39B4D1DC91D000013FFA8 /* WOWLearn */;
+			targetProxy = 42A39B631DC91D000013FFA8 /* PBXContainerItemProxy */;
+		};
+		42A39B6F1DC91D000013FFA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42A39B4D1DC91D000013FFA8 /* WOWLearn */;
+			targetProxy = 42A39B6E1DC91D000013FFA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42A39B551DC91D000013FFA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42A39B561DC91D000013FFA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42A39B5A1DC91D000013FFA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42A39B5B1DC91D000013FFA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42A39B741DC91D000013FFA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42A39B751DC91D000013FFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42A39B771DC91D000013FFA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDFFCA7FDFA41ED9D02D620C /* Pods-WOWLearn.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WOWLearn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = inEducation.WOWLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		42A39B781DC91D000013FFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 615A9D2433DE73B94061CD3D /* Pods-WOWLearn.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WOWLearn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = inEducation.WOWLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		42A39B7A1DC91D000013FFA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61B8B66177B8F09AB2973AB5 /* Pods-WOWLearnTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WOWLearnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = inEducation.WOWLearnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WOWLearn.app/WOWLearn";
+			};
+			name = Debug;
+		};
+		42A39B7B1DC91D000013FFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B5770439AF482003B40E6A3 /* Pods-WOWLearnTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WOWLearnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = inEducation.WOWLearnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WOWLearn.app/WOWLearn";
+			};
+			name = Release;
+		};
+		42A39B7D1DC91D000013FFA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F3E5030682C19EAB6197881 /* Pods-WOWLearnUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WOWLearnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = inEducation.WOWLearnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WOWLearn;
+			};
+			name = Debug;
+		};
+		42A39B7E1DC91D000013FFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B2268048BB8B5ED4CAC7D18 /* Pods-WOWLearnUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WOWLearnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = inEducation.WOWLearnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WOWLearn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42A39B491DC91D000013FFA8 /* Build configuration list for PBXProject "WOWLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A39B741DC91D000013FFA8 /* Debug */,
+				42A39B751DC91D000013FFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42A39B761DC91D000013FFA8 /* Build configuration list for PBXNativeTarget "WOWLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A39B771DC91D000013FFA8 /* Debug */,
+				42A39B781DC91D000013FFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42A39B791DC91D000013FFA8 /* Build configuration list for PBXNativeTarget "WOWLearnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A39B7A1DC91D000013FFA8 /* Debug */,
+				42A39B7B1DC91D000013FFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42A39B7C1DC91D000013FFA8 /* Build configuration list for PBXNativeTarget "WOWLearnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A39B7D1DC91D000013FFA8 /* Debug */,
+				42A39B7E1DC91D000013FFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42A39B461DC91D000013FFA8 /* Project object */;
+}
